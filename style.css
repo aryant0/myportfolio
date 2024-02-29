@@ -452,22 +452,22 @@ a{
     transform:scale(1.1);
   }
 
-  #project1{
+  /* #project1{
     background-image: url(./images/projects/Project1.png);
   }
   #project2{
     margin-left:120px;
     background-image: url(./images/projects/Project2.png);
-  }
+  } */
   #project3{
-    background-image: url(./images/projects/Project3.png);
+    background-image: url(Project1.png);
   }
-  #project4{
+  /* #project4{
     margin-left:120px;
     background-image: url(./images/projects/Project4.png);
-  }
+  } */
 
-/*   @media (max-width:1300px) {
+  @media (max-width:1300px) {
     .page-header {
       padding-top: 30px;
       color: var(--bgOrange);
@@ -522,7 +522,7 @@ a{
     .project-card:hover .project-content {
       scale: 0.55;
     }
-  } */
+  } 
 
   .skills-container{
     position:relative;
